@@ -98,16 +98,22 @@ const projectDetails = {
         images: ['images/box.png']
     },
     frontend: {
-        title: 'Développement Web Frontend',
-        description: 'Création d\'interfaces web modernes et responsives avec une attention particulière à l\'expérience utilisateur. Développement de composants réutilisables et d\'animations fluides pour créer des sites web interactifs et engageants. Maîtrise des frameworks modernes et des meilleures pratiques de développement frontend.',
-        skills: 'HTML, CSS, JavaScript, React, Vue.js, Responsive Design',
-        images: []
+        title: 'Site Crousty Movies - Frontend',
+        description: 'Développement complet de l\'interface utilisateur pour la plateforme de films Crousty Movies. Création d\'une interface moderne et responsive avec navigation fluide, recherche avancée et affichage optimisé des films. Intégration d\'animations CSS et JavaScript pour une expérience utilisateur engageante.',
+        skills: 'HTML, CSS, JavaScript, Responsive Design, UI/UX',
+        images: ['images/sitecrousty.png']
     },
     backend: {
-        title: 'Développement Backend',
-        description: 'Création d\'APIs robustes et de systèmes backend performants. Gestion de bases de données relationnelles et non-relationnelles, implémentation de logique métier complexe, et mise en place de systèmes d\'authentification et d\'autorisation sécurisés. Optimisation des performances et scalabilité des applications.',
-        skills: 'PHP, Node.js, Express, MySQL, MongoDB, REST API',
-        images: []
+        title: 'Site Crousty Movies - Backend',
+        description: 'Développement du système backend robuste pour la gestion de la base de données de films. Implémentation d\'APIs REST pour la communication frontend-backend, gestion des utilisateurs, et optimisation des requêtes de données. Mise en place de la sécurité et de la performance du système.',
+        skills: 'PHP, MySQL, API REST, Sécurité Web, Performance',
+        images: ['images/sitecrousty.png']
+    },
+    pokedia: {
+        title: 'Pokedia - Pokédex Interactif',
+        description: 'Création d\'un Pokédex web moderne et interactif permettant aux utilisateurs de découvrir et explorer l\'univers Pokémon. Fonctionnalités incluant recherche par nom, filtres par type, statistiques détaillées, et interface animée. Intégration d\'API externe pour les données Pokémon.',
+        skills: 'HTML, CSS, JavaScript, API Integration, Animations',
+        images: ['images/placeholder.png']
     }
 };
 
