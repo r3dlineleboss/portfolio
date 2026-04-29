@@ -366,9 +366,11 @@ main {
 }
 
 .project-card p,
+.group-card p,
 .contact-card p {
     color: #4a4a4a;
     margin-bottom: 1rem;
+    display: none; /* Hide descriptions by default */
 }
 
 .project-card img,
