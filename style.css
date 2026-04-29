@@ -128,7 +128,6 @@ main {
     width: 280px;
     height: 280px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(178, 18, 52, 0.2) 0%, rgba(178, 18, 52, 0.08) 100%);
     top: 1rem;
     right: 3rem;
     z-index: 0;
@@ -140,7 +139,6 @@ main {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: rgba(178, 18, 52, 0.1);
     bottom: 3rem;
     left: 2rem;
     z-index: 0;
@@ -168,9 +166,8 @@ main {
 .hero::before {
     content: "";
     position: absolute;
-    width: 200%;
+    width: 100%;
     height: 3px;
-    background: linear-gradient(90deg, transparent, #b21234, transparent);
     top: 20%;
     left: -50%;
     z-index: 0;
@@ -179,9 +176,8 @@ main {
 .hero::after {
     content: "";
     position: absolute;
-    width: 200%;
+    width: 100%;
     height: 3px;
-    background: linear-gradient(90deg, transparent, #b21234, transparent);
     bottom: 20%;
     left: -50%;
     z-index: 0;
@@ -198,7 +194,6 @@ main {
     right: -2rem;
     top: 1rem;
     font-size: 5rem;
-    color: rgba(178, 18, 52, 0.25);
     z-index: -1;
 }
 
